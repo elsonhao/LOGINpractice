@@ -12,6 +12,7 @@
 		AF65A70D1E5BE9E500CF1EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65A70B1E5BE9E500CF1EE5 /* Main.storyboard */; };
 		AF65A70F1E5BE9E500CF1EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF65A70E1E5BE9E500CF1EE5 /* Assets.xcassets */; };
 		AF65A7121E5BE9E500CF1EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65A7101E5BE9E500CF1EE5 /* LaunchScreen.storyboard */; };
+		AF65A71A1E5BEAB300CF1EE5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65A7191E5BEAB300CF1EE5 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AF65A70E1E5BE9E500CF1EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF65A7111E5BE9E500CF1EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF65A7131E5BE9E500CF1EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF65A7191E5BEAB300CF1EE5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AF65A7061E5BE9E500CF1EE5 /* performSegue */ = {
 			isa = PBXGroup;
 			children = (
+				AF65A7191E5BEAB300CF1EE5 /* SecondViewController.swift */,
 				AF65A7071E5BE9E500CF1EE5 /* AppDelegate.swift */,
 				AF65A7091E5BE9E500CF1EE5 /* ViewController.swift */,
 				AF65A70B1E5BE9E500CF1EE5 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF65A71A1E5BEAB300CF1EE5 /* SecondViewController.swift in Sources */,
 				AF65A70A1E5BE9E500CF1EE5 /* ViewController.swift in Sources */,
 				AF65A7081E5BE9E500CF1EE5 /* AppDelegate.swift in Sources */,
 			);
